@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: linear-gradient(to bottom right,#005BBB, #FFD500); 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+ #calculatorBody{
+  width: 360px;
+  background-color: rgb(53, 52, 52);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+}
+
+#answer{
+  width: 225px;
+  display: inline-block;
+  text-align: right;
+  font-family: 'Dosis', sans-serif;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+input {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px; 
+  font-family: 'Dosis', sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 4px;
+  
+}
+#AC {
+   background: #FF6347;
+}
+#equals{
+  background: #1E90FF;
+}
+#all{
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  }
+#but:hover {
+    background: #ff6961;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
+#but:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
+#spbut:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
+   
+#spbut:hover {
+    background: #ff6961;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
